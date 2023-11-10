@@ -1,0 +1,68 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "dev": {
+      "name": "dev",
+      "command": "npm run dev",
+      "runAtStart": true
+    },
+    "setup": {
+      "name": "setup",
+      "command": "npm run setup",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": false
+    },
+    "user:create": {
+      "name": "user:create",
+      "command": "npm run user:create",
+      "runAtStart": false
+    },
+    "user:changePassword": {
+      "name": "user:changePassword",
+      "command": "npm run user:changePassword",
+      "runAtStart": false
+    },
+    "start:debug": {
+      "name": "start:debug",
+      "command": "npm run start:debug",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "cypress": {
+      "name": "cypress",
+      "command": "npm run cypress",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "npm run prepare",
+      "runAtStart": false
+    }
+  }
+}
